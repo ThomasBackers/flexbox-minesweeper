@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.window {
+    background-color: #cbcbcb;
+    width: 434px;
+    padding: 5px;
+    margin: auto;
+}
+
+.field {
+    /*STYLE*/
+    border-width: 5px;
+    border-style: inset;
+    border-top-color: #8f8d8f;
+    border-right-color: #fdfefd;
+    border-bottom-color: #fdfefd;
+    border-left-color: #8f8d8f;
+    max-width: 424px;
+    /*POSITION*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    /*STYLE*/
+    min-width: 50px;
+    min-height: 50px;
+    border-width: 3px;
+    border-style: none dotted dotted none;
+    border-color: black;
+    /*POSITION*/
+    display: flex;
+}
+
+.cell-content {
+    margin: auto;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: red;
+}
+
+.bomb {
+    width: 35px;
+    height: 35px;
+}
