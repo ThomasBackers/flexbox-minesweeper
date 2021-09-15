@@ -32,25 +32,25 @@ body {
     display: flex;
 }
 
-.hide {
+.hidden-cell {
     min-width: 47px;
     min-height: 47px;
     border-style: outset;
     border-color: #fdfefd;
 }
 
-.hide .cell-content {
+.hidden-cell .cell-content {
     visibility: hidden;
 }
 
-.hide:hover {
+.hidden-cell:hover {
     min-width: 50px;
     min-height: 50px;
     border-style: none dotted dotted none;
     border-color: black;
 }
 
-.hide:hover .cell-content {
+.hidden-cell:hover .cell-content {
     visibility: visible;
 }
 
