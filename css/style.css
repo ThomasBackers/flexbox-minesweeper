@@ -14,10 +14,7 @@ body {
     /*STYLE*/
     border-width: 5px;
     border-style: inset;
-    border-top-color: #8f8d8f;
-    border-right-color: #fdfefd;
-    border-bottom-color: #fdfefd;
-    border-left-color: #8f8d8f;
+    border-color: #8f8d8f #fdfefd #fdfefd #8f8d8f;
     max-width: 424px;
     /*POSITION*/
     display: flex;
@@ -33,6 +30,28 @@ body {
     border-color: black;
     /*POSITION*/
     display: flex;
+}
+
+.hide {
+    min-width: 47px;
+    min-height: 47px;
+    border-style: outset;
+    border-color: #fdfefd;
+}
+
+.hide .cell-content {
+    visibility: hidden;
+}
+
+.hide:hover {
+    min-width: 50px;
+    min-height: 50px;
+    border-style: none dotted dotted none;
+    border-color: black;
+}
+
+.hide:hover .cell-content {
+    visibility: visible;
 }
 
 .cell-content {
